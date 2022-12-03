@@ -1,0 +1,87 @@
+body {
+
+    background-image : url('mass_effect_quasar2.png');
+    
+      background-size: 1920px 1080px;
+      background-position: 50% 10%;
+
+
+}
+.ONEToEIGHT {
+  position: absolute;
+  bottom: 525px;
+  left: 450px;
+  z-index: 10;
+}
+
+.FOURToSEVEN {
+  position: absolute;
+  bottom: 38%;
+  left: 450px;
+  z-index: 10;
+}
+
+.score {
+  position: absolute;
+  bottom: 47%;
+  left: 64.4%;
+  z-index: 10;
+}
+
+.randomNumber {
+  position: absolute;
+  bottom: 51%;
+  left: 840px;
+  z-index: 10;
+}
+
+
+.ONEToEIGHT button, .FOURToSEVEN button, .numero_tiré span, .score span {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  letter-spacing: 6px;
+}
+
+.score span{
+   border: solid black 10px;
+  border-radius: 13%;
+ background-color: #1c253b;
+  opacity: 0.7;
+  padding: 8px 45px;
+  font-size: 47px;
+}
+
+.randomNumber span{
+  border: solid #f0f6ff 10px;
+  opacity: 1;
+  color: #fff;
+      box-shadow:  0 0 7px #fff, 
+               0 0 10px #fff, 
+               0 0 42px #f0f6ff,
+               0 0 77px #f0f6ff, 
+               0 0 100px #f0f6ff;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 15.9px 53.9px;
+  font-size: 47px;
+}
+
+.ONEToEIGHT button {
+  border: solid black 10px;
+  border-radius: 13px;
+  background-color: rgba(205,92,92,0.5);
+  padding: 8px 45px;
+  font-size: 47px;
+  cursor: pointer;
+
+}
+
+.FOURToSEVEN button {
+  border: solid black 10px;
+  border-radius: 12px;
+  background-color: rgba(72,61,139,0.5);
+  padding: 3px 36px;
+  font-size: 33px;
+  cursor: pointer;
+
+}

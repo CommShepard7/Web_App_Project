@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Halo';
+    src: url('Halo.ttf');
+}
+
+.titre {
+    text-align : center;
+    font-family: 'Halo', sans-serif;
+    color: white;
+}
+
+.center {
+	text-align : center;
+	font-family: 'Halo', sans-serif;
+	color: white;
+}
+
+.link {
+	text-aling : center;
+	font-family: 'Halo', sans-serif;
+	font-size : 30px;
+	color : white;
+}
+
+body {
+	text-align : center;
+	background-image : url('citadel2.png');
+	font-family: 'Halo', sans-serif;
+	font-size : 20px;
+	color: white;
+}
+

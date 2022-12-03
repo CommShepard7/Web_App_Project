@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<script src = "JavaScript/jQuery_3.6.0.js"></script>
+<script src = "JavaScript/getCookies.js"></script>
+<script src = "JavaScript/homepage.js"></script>
+<script src = "JavaScript/chatClient.js"></script>
+<style>
+#history {
+display: inline-block;
+width: 300px;
+height: 175px;
+}
+</style>
+<link rel="stylesheet" href = "css/indexstyle.css">
+<link rel="stylesheet" href = "css/chatstyle.css">
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
+<h1 class = center id = "username"></h1><br/>
+<h1 class = center> Citadel games, store and more !</h1> <br/>
+		
+		<div id="Chat" class="overlay">
+        <textarea id="history" readonly></textarea>
+        <input id="txtMessage" type="text" class="textarea"/>
+        </div>
+        <button id="btnSend" class="btn_send">Send message</button>
+        <!--  <button id="btnClose" class="cancel">Close connection</button> -->
+		<button id="btnChat" class="myButton">Chat</button>
+
+<a class = center href = "/WEBApp/home/games/games.html">Games</a>
+<a class = center href = "Store">Store</a>
+<a class = center href = "Citadel guide">Citadel guide</a> <br/>
+<button id="submit"> Disconnect </button>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <title>Games</title>
+   <link rel="stylesheet" href = "css/gamestyle.css">
+   <script src = "JavaScript/jQuery_3.6.0.js"></script>
+   <script src = "JavaScript/getCookies.js"></script>
+   <script src = "JavaScript/homepage.js"></script>
+   <script src = "JavaScript/games.js"></script>
+   <script src = "JavaScript/chatClient.js"></script>
+
+
+<link rel="stylesheet" href = "css/indexstyle.css">
+<link rel="stylesheet" href = "css/chatstyle.css">
+
+<style>
+            #history {
+                display: inline-block;
+                width: 300px;
+                height: 175px;
+            }
+        </style>
+
+</head>
+
+<body>
+<div class="title-screens">
+  <div class="meOne">
+    <img src="css/mass_effect_quasar.png">
+    <div class="start"><button id = "startQuasar">START QUASAR</button>
+    </div>
+  </div>
+  
+  <div class="meTwo">
+    <img src="css/pazaak.jpg">
+    <div class="start"><button id = "startPazaak">START PAZAAK</button>
+    </div>
+  </div>
+</div>
+
+
+<div class="blue"></div>
+
+  <div id="Chat" class="overlay">
+        <textarea id="history" readonly></textarea>
+        <input id="txtMessage" type="text" class="textarea"/>
+        </div>
+        <button id="btnSend" class="btn_send">Send message</button>
+        <!--  <button id="btnClose" class="cancel">Close connection</button> -->
+		<button id="btnChat" class="myButton">Chat</button>
+    
+</body>

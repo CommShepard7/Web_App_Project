@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create an account</title>
+<link rel="stylesheet" href = "css/accountstyle.css">
+</head>
+<body>
+
+
+<h1 class = center> ACCOUNT CREATION</h1>
+<p class = center> Please create an account or authenticate </p>
+<form action = "Controller" method = "post">
+	First name : <input type="text" name="firstName"/><br/>
+	Last name : <input type="text" name="lastName"/><br/>
+	User name : <input type="text" name="userName"/><br/>
+	Password : <input type="password" name="password"> <br/> 
+	<br/>
+	<input type="submit" value="Submit"/><br/>
+	<input type="hidden" name="op" value="createAccount"/>
+</form> 
+<br/>
+<br/>
+<br/> 
+<br/> 
+<a class = link href = "index.html">RETURN TO HOME PAGE</a> <br/> <br/> <br/> 
+<a class = link href = "Controller?op=authservice"> AUTHENTICATE </a> 
+
+
+</body>
+</html>
